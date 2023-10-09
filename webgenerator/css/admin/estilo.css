@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Unbounded:wght@600&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.lato{
+	font-family: 'Lato', sans-serif;
+}
+.unboun{
+	font-family: 'Unbounded', cursive;
+}
+.cgris{
+	color: #EEE2DE;	
+}
+.cpink{
+	color: #EA906C;	
+}
+.cred{
+	color: #B31312;
+}
+.cblue{
+	color: #2B2A4C;
+}
+.backgris{
+	background-color: #EEE2DE;	
+}
+.backpink{
+	background-color: #EA906C;	
+}
+.backred{
+	background-color: #B31312;
+}
+.backblue{
+	background-color: #2B2A4C;
+}
+.wrapper{
+	display: flex;
+	justify-content: center;
+	height: 100vh;
+}
+.container{
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	flex-direction: column;
+	width: 50vw;
+}
+.container h1{
+	text-align: center;
+	padding: 10px;
+}
+.contain_form{
+	width: 50%;	
+	height: 100%;
+	border-radius: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.contain_form h1{
+	padding: 30px;
+}
+.contain_form form{
+	display: flex;
+	flex-direction: column;
+	padding: 10px;		
+}
+.second{
+	padding: 10px;
+	border-radius: 5px;
+}
+.contain_form form input[type=text],.contain_form form input[type=password]{
+	border: none;
+	border-bottom-style: solid;
+	border-bottom-color: #2B2A4C;
+	margin: 5px;
+	padding: 5px;
+	border-radius: 5px;
+	text-align: center;
+}
+.contain_form form input[type=text]:focus,.contain_form form input[type=password]:focus{
+
+}
+.contain_form form input[type=submit]{
+	border: none;
+	margin: 5px;
+	padding: 5px;
+	border-radius: 5px;
+	text-align: center;
+	font-size: 30px;
+}
+.contain_form a{
+	padding: 30px;
+	font-size: 90%;
+	text-decoration: none;
+}
